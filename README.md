@@ -11,8 +11,9 @@
 ```
 centos：yum install ca-certificates wget -y && update-ca-trust force-enable
 ```
+debian/ubuntu：
 ```
-debian/ubuntu：apt-get install ca-certificates wget -y && update-ca-certificates
+apt-get install ca-certificates wget -y && update-ca-certificates
 ```
 不卸载内核版本
 
